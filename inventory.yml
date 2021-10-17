@@ -1,0 +1,9 @@
+all:
+  children:
+    httpserver:
+      hosts:
+        188.166.25.113:
+  vars:
+    ansible_ssh_user: root
+    ansible_ssh_private_key_file: ~/.ssh/digitalocean
+    
