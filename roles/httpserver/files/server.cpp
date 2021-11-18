@@ -10,7 +10,7 @@ public:
 };
 
 int main(int argc, char** argv) {
-    webserver ws = create_webserver(8080);
+    webserver ws = create_webserver(80);
 
     hello_world_resource hwr;
     ws.register_resource("/hello", &hwr);
